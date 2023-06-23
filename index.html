@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./index.css"> -->
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .header {
+      background-color: white;
+      position: relative;
+      -webkit-box-shadow: 0 0 10px #ddd;
+      -moz-box-shadow: 0 0 10px #ddd;
+      box-shadow: 0 0 10px #ddd;
+      margin: 0;
+    }
+    .header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      position: relative;
+    }
+
+    .about .title {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    .about .title .jj {
+      font-size: 20px;
+    }
+
+    .about .description {
+      text-align: start;
+      line-height: 30px;
+    }
+
+    .about .img {
+      width: 200px;
+      height: 200px;
+      margin-top: 20px;
+    }
+
+    .project .container {
+      display: flex;
+      align-items: center;
+    }
+
+    .project .grid {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
+    }
+    .project .span {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: gray;
+      margin-right: 5px;
+    }
+
+    .project a {
+      width: fit-content;
+      text-decoration: none;
+      color: white;
+      cursor: pointer;
+      background-color: red;
+      padding: 5px;
+      border-radius: 30px;
+    }
+  </style>
+  <body>
+    <!-- Start Header -->
+    <div class="header">
+      <div class="container">
+        <h2 class="h2">Ali Amran</h2>
+        <h3>Civil Eng</h3>
+      </div>
+    </div>
+    <!-- End Header -->
+    <!-- Start aboutMe -->
+    <div class="about">
+      <div class="container">
+        <div class="title">
+            <div class="habout">
+                <div class="jj">
+                    <p>About me:</p>
+                </div>
+                <div class="description">
+                  <p>
+                    I am Ali Amran, a civil engineer from Tartous, Syria. I have
+                    finished my bachelor's degree in civil engineering and am currently
+                    pursuing my master's degree I worked on studying many residential
+                    building projects in Tartous Governorate. It also participated in
+                    the implementation of the National Islamic Bank. I am currently
+                    participating in the implementation of two residential towers in the
+                    city of Tartous.
+                  </p>
+                </div>
+                <div class="alot">
+                    <p>And I have alot of Project in many programme like Reveit and Navisworks and Primavera </p>
+                </div>
+                <div class="alot">
+                    <p style="font-weight: bold;">you can see my project in the link:</p>
+                </div>
+            </div>
+          <div class="img">
+              <img class="img" src="./IMG_20230623_134337.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End aboutMe -->
+    <!-- Start Project -->
+    <div class="project">
+      <div class="container">
+        <div class="grid">
+          <a
+            href="https://drive.google.com/drive/folders/1Q_RQTdlpo_yEYDzJtyR-FAIlwSVZOnkp"
+            >Reveit</a
+          >
+          <a
+            href="https://drive.google.com/drive/folders/1Q_y9boC0tJotF2eAaeHcEIoZyKmWBR4d"
+            >Navisworks</a
+          >
+          <a
+            href="https://drive.google.com/drive/folders/1Qim2vlX9qQ5iAhNb0S9FH4LGgHyGFJoc"
+            >Primavera</a
+          >
+          <a
+            href="https://drive.google.com/drive/folders/1Qu6T7ULV7gwlv5fevte309qzy01S6EZ2"
+            >Reports</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- End Project -->
+    <!--  -->
+  </body>
+</html>
